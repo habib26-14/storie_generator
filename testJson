@@ -1,0 +1,44 @@
+[
+  {
+    "id": 13,
+    "titre": "Le Secret du Coffre Maudit",
+    "auteur": "Julie Martin",
+    "contenu": "Un groupe d\u0027aventuriers part à la recherche d\u0027un coffre légendaire renfermant un pouvoir mystérieux.",
+    "nbPages": 320,
+    "prix": 24.99,
+    "categories": {
+      "id": 8,
+      "nom": "Aventure",
+      "Description": "Des voyages passionnants à travers des mondes inconnus."
+    },
+    "dates": "May 11, 2022, 12:00:00 AM"
+  },
+  {
+    "id": 14,
+    "titre": "Le Destin",
+    "auteur": "Alexandre Dupuis",
+    "contenu": "Une histoire émouvante d\u0027amitié et de trahison dans un contexte historique tumultueux.",
+    "nbPages": 280,
+    "prix": 17.99,
+    "categories": {
+      "id": 7,
+      "nom": "Drame",
+      "Description": "Des histoires émouvantes avec des conflits et des épreuves."
+    },
+    "dates": "Dec 4, 2023, 12:00:00 AM"
+  },
+  {
+    "id": 18,
+    "titre": "L\u0027Évasion",
+    "auteur": "Marc Leblanc",
+    "contenu": "Un prisonnier ingénieux planifie une évasion audacieuse pour retrouver sa liberté.",
+    "nbPages": 180,
+    "prix": 9.99,
+    "categories": {
+      "id": 10,
+      "nom": "Action",
+      "Description": "Des aventures palpitantes et pleines d\u0027action."
+    },
+    "dates": "Aug 8, 2023, 12:00:00 AM"
+  }
+]

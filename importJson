@@ -1,0 +1,142 @@
+[
+  {
+    "id": 13,
+    "titre": "Le Secret du Coffre Maudit",
+    "auteur": "Julie Martin",
+    "contenu": "Un groupe d\u0027aventuriers part à la recherche d\u0027un coffre légendaire renfermant un pouvoir mystérieux.",
+    "nbPages": 320,
+    "prix": 24.99,
+    "categories": {
+      "id": 8,
+      "nom": "Aventure",
+      "Description": "Des voyages passionnants à travers des mondes inconnus."
+    },
+    "dates": "May 11, 2022, 12:00:00 AM"
+  },
+  {
+    "id": 25,
+    "titre": "Baba Yaga",
+    "auteur": "Vikida",
+    "contenu": "Elle se dit aussi gardienne de la fontaine d\u0027eau de la vie et de la mort. Selon la légende, \nelle vieillirait d\u0027un an à chaque fois qu\u0027on lui pose une question, ce qui ne l\u0027empêche pas \nde rajeunir en buvant une décoction de roses bleues. \nOn la considère comme une dévoreuse d\u0027êtres humains (surtout des petites filles.)",
+    "nbPages": 23,
+    "prix": 26.0,
+    "categories": {
+      "id": 10,
+      "nom": "Action",
+      "Description": "Des aventures palpitantes et pleines d\u0027action."
+    },
+    "dates": "Jun 6, 2023, 12:00:00 AM"
+  },
+  {
+    "id": 26,
+    "titre": "L\u0027Évasion",
+    "auteur": "Marc Leblanc",
+    "contenu": "Un prisonnier ingénieux planifie une évasion audacieuse pour retrouver sa liberté.",
+    "nbPages": 180,
+    "prix": 9.99,
+    "categories": {
+      "id": 10,
+      "nom": "Action",
+      "Description": "Des aventures palpitantes et pleines d\u0027action."
+    },
+    "dates": "Feb 8, 2008, 12:00:00 AM"
+  },
+  {
+    "id": 27,
+    "titre": "Le Destin Brisé",
+    "auteur": "Alexandre Dupuis",
+    "contenu": "Une histoire émouvante d\u0027amitié et de trahison dans un contexte historique tumultueux.",
+    "nbPages": 280,
+    "prix": 17.99,
+    "categories": {
+      "id": 7,
+      "nom": "Drame",
+      "Description": "Des histoires émouvantes avec des conflits et des épreuves."
+    },
+    "dates": "Dec 4, 2023, 12:00:00 AM"
+  },
+  {
+    "id": 28,
+    "titre": "La Quête Magique",
+    "auteur": "Jean Dupont",
+    "contenu": "Un jeune sorcier entreprend une quête pour sauver le monde des forces du mal.",
+    "nbPages": 240,
+    "prix": 15.99,
+    "categories": {
+      "id": 13,
+      "nom": "Fantastique",
+      "Description": "Des mondes imaginaires et des créatures magiques."
+    },
+    "dates": "Oct 30, 2022, 12:00:00 AM"
+  },
+  {
+    "id": 29,
+    "titre": "Les Enquêtes de Clara",
+    "auteur": "Sophie Tremblay",
+    "contenu": "Clara, une détective talentueuse, résout des affaires criminelles complexes.",
+    "nbPages": 280,
+    "prix": 18.99,
+    "categories": {
+      "id": 19,
+      "nom": "Mystère",
+      "Description": "Des enquêtes intrigantes et des mystères à résoudre."
+    },
+    "dates": "Mar 18, 2023, 12:00:00 AM"
+  },
+  {
+    "id": 30,
+    "titre": "Le Rire Contagieux",
+    "auteur": "Martin Lambert",
+    "contenu": "Une comédie hilarante sur les mésaventures d\u0027un groupe d\u0027amis loufoques.",
+    "nbPages": 200,
+    "prix": 12.99,
+    "categories": {
+      "id": 9,
+      "nom": "Comédie",
+      "Description": "Des histoires drôles et divertissantes qui font rire."
+    },
+    "dates": "Jun 5, 2023, 12:00:00 AM"
+  },
+  {
+    "id": 31,
+    "titre": "Les Secrets de l\u0027Univers",
+    "auteur": "Sophie Martin",
+    "contenu": "Dans un monde futuriste un groupe de scientifiques tente de percer les mystères de l\u0027univers",
+    "nbPages": 300,
+    "prix": 19.99,
+    "categories": {
+      "id": 16,
+      "nom": "Science-fiction",
+      "Description": "Des aventures futuristes dans l\u0027espace ou sur Terre."
+    },
+    "dates": "Jul 5, 2015, 12:00:00 AM"
+  },
+  {
+    "id": 32,
+    "titre": "Le Mystère de la Villa Hantée",
+    "auteur": "Paul Dupont",
+    "contenu": "Une équipe de détectives enquête sur une villa prétendument hantée et découvre des secrets terrifiants.",
+    "nbPages": 250,
+    "prix": 14.99,
+    "categories": {
+      "id": 17,
+      "nom": "Horreur",
+      "Description": "Des histoires effrayantes avec des éléments surnaturels."
+    },
+    "dates": "Oct 1, 2023, 12:00:00 AM"
+  },
+  {
+    "id": 33,
+    "titre": "L\u0027Amour Éternel",
+    "auteur": "Emma Smith",
+    "contenu": "Une histoire romantique entre deux âmes sœurs qui doivent surmonter de nombreux obstacles pour être ensemble.",
+    "nbPages": 200,
+    "prix": 12.99,
+    "categories": {
+      "id": 18,
+      "nom": "Romance",
+      "Description": "Une histoire d\u0027amour passionnée et émouvante."
+    },
+    "dates": "Nov 2, 2022, 12:00:00 AM"
+  }
+]

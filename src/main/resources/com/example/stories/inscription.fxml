@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.stories.controllers.UtilisateurController"
+            fx:id="rootPane"
+            style="-fx-background-color: #f2f2f2;">
+
+    <TextField
+            text="Email"
+               fx:id="emailField"
+               layoutX="300"
+               layoutY="200"
+               prefWidth="300"/>
+
+    <TextField
+            text="Nom"
+            fx:id="nomField"
+               layoutX="300"
+               layoutY="250"
+               prefWidth="300"/>
+
+    <TextField
+            text="Prenom"
+            fx:id="prenomField"
+               layoutX="300"
+               layoutY="300"
+               prefWidth="300"/>
+
+    <TextField
+            text="Pseudo"
+            fx:id="pseudoField"
+               layoutX="300"
+               layoutY="350"
+               prefWidth="300"/>
+
+    <PasswordField
+            text="Mot De Passe"
+            fx:id="motDePasseField"
+                   layoutX="300"
+                   layoutY="400"
+                   prefWidth="300"/>
+
+    <Button text="Se Connecter"
+            onAction="#afficherInterfaceConnexion"
+            layoutX="300"
+            layoutY="500"
+            prefWidth="100"/>
+
+    <Button text="S'inscrire"
+            onAction="#sInscrire"
+            layoutX="500"
+            layoutY="500"
+            prefWidth="100"/>
+
+</AnchorPane>

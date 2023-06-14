@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<GridPane xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" fx:controller="com.example.stories.controllers.CategorieController">
+    <MenuBar GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2">
+        <Menu text="Extraction">
+            <MenuItem text="Exporter en JSON" onAction="#exporterEnJSON"/>
+            <MenuItem text="Exporter en Excel" onAction="#exporterEnExcel"/>
+            <MenuItem text="Exporter en Texte" onAction="#exporterEnTexte"/>
+        </Menu>
+        <Menu text="Importation">
+            <MenuItem text="Importer en JSON" onAction="#importerFichierJSON"/>
+            <MenuItem text="Importer en Excel" onAction="#importerFichierExcel"/>
+            <MenuItem text="Importer en Texte" onAction="#importerFichierTexte"/>
+        </Menu>
+        <Menu text="Autres">
+            <MenuItem text="Histoire" onAction="#Histoire"/>
+            <MenuItem text="Generateur" onAction="#Generateurs"/>
+            <MenuItem text="fermer" onAction="#Fermer"/>
+        </Menu>
+    </MenuBar>
+    <Label text="Nom:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="nomField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Label text="Description:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextField fx:id="descriptionField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Button text="Ajouter" onAction="#handleAjouter" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Button text="Modifier" onAction="#handleModifier" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <Button text="Supprimer" onAction="#handleSupprimer" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+    <Button text="Actualiser" onAction="#handleActualiser" GridPane.rowIndex="3" GridPane.columnIndex="3"/>
+    <Button text="Annuler" onAction="#clearFields" GridPane.rowIndex="3" GridPane.columnIndex="4"/>
+
+    <TableView fx:id="categorieTable" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="3">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="nomColumn" text="Nom" prefWidth="150"/>
+            <TableColumn fx:id="descriptionColumn" text="Description" prefWidth="200"/>
+        </columns>
+    </TableView>
+
+    <Label fx:id="messageLabel" GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="3"/>
+</GridPane>
